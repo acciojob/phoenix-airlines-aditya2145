@@ -1,10 +1,10 @@
-
 import './../styles/App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Landing from './Landing'
 import FlightSearch from './FlightSearch'
 import FlightBooking from './FlightBooking'
 import Confirmation from './Confirmation'
+import React from 'react';
 
 function App() {
 
