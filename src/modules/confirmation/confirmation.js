@@ -17,16 +17,13 @@ const Confirmation = () => {
 
   return (
     <>
-      <Typography
-        variant="body2"
-        color="textPrimary"
-      >{`Thank you for the Booking. Click the below button to return to home page`}</Typography>
-      <Button
+      <h1>Thank you for the Booking. Click the below button to return to home page</h1>
+      <button
         variant="outlined"
         color="primary"
         className={classes.button}
         onClick={() => history.push("/")}
-      >{`Back to Home`}</Button>
+      >Back to Home</button>
     </>
   );
 };
