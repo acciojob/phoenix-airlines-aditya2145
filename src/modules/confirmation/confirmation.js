@@ -18,12 +18,12 @@ const Confirmation = () => {
   return (
     <>
       <h1>Thank you for the Booking. Click the below button to return to home page</h1>
-      <button
+      <Button
         variant="outlined"
         color="primary"
         className={classes.button}
         onClick={() => history.push("/")}
-      >Back to Home</button>
+      >Back to Home</Button>
     </>
   );
 };
